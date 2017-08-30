@@ -22,9 +22,9 @@ public class CreateDemo {
 		
 		try {
 			//create the objects
-			Instructor instructor = new Instructor("ashvini","kumar","ashvini@gmail.com");
+			Instructor instructor = new Instructor("jon","snow","jon@gmail.com");
 			
-			InstructorDetails instructorDetails = new InstructorDetails("http://ashvini/youtube","coding");
+			InstructorDetails instructorDetails = new InstructorDetails("http://jon/youtube","Denarese");
 			//associate the objects 
 			instructor.setInstructorDetails(instructorDetails);
 			//begin transaction
