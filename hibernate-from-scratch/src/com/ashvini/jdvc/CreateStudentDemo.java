@@ -19,7 +19,7 @@ public class CreateStudentDemo {
 		
 		try {
 			// create student object
-			Student student = new Student(1, "Ashvini","kumar","ashvinikumar1801@gmail.com");
+			Student student = new Student("john","snow","john@gmail.com");
 			//begin transaction
 			session.beginTransaction();
 			//save the student object
@@ -28,7 +28,7 @@ public class CreateStudentDemo {
 			session.getTransaction().commit();
 			
 		}finally {
-			
+			session.close();
 		}
 
 	}
