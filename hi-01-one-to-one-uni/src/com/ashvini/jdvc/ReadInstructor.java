@@ -1,10 +1,13 @@
-package com.ashvini.jdvc.entity;
+package com.ashvini.jdvc;
 
 import java.util.List;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
+
+import com.ashvini.jdvc.entity.Instructor;
+import com.ashvini.jdvc.entity.InstructorDetails;
 
 
 public class ReadInstructor {
